@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8400D2B51D678FAF0097BAA4 /* STQServiceCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8400D2B41D678FAF0097BAA4 /* STQServiceCell.swift */; };
+		84134B891D6644E80041ABE0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84134B881D6644E80041ABE0 /* AppDelegate.swift */; };
+		84134B8B1D6644E80041ABE0 /* STQServicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84134B8A1D6644E80041ABE0 /* STQServicesViewController.swift */; };
+		84134B8E1D6644E80041ABE0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84134B8C1D6644E80041ABE0 /* Main.storyboard */; };
+		84134B901D6644E80041ABE0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84134B8F1D6644E80041ABE0 /* Assets.xcassets */; };
+		84134B931D6644E80041ABE0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84134B911D6644E80041ABE0 /* LaunchScreen.storyboard */; };
+		84329C7F1D75F24800A6B377 /* STQExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84329C7E1D75F24800A6B377 /* STQExtensions.swift */; };
+		8480FF2A1D679ADD0052FD7F /* STQService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480FF291D679ADD0052FD7F /* STQService.swift */; };
+		8480FF2C1D67AD210052FD7F /* STQServiceDetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480FF2B1D67AD210052FD7F /* STQServiceDetailsViewController.swift */; };
+		8480FF2E1D67B7DC0052FD7F /* STQJobCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480FF2D1D67B7DC0052FD7F /* STQJobCell.swift */; };
+		8480FF301D67B9EC0052FD7F /* STQServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8480FF2F1D67B9EC0052FD7F /* STQServer.swift */; };
+		8488DC7C1D6B7E6F001D9709 /* STQJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488DC7B1D6B7E6F001D9709 /* STQJob.swift */; };
+		8488DC7F1D6B7E99001D9709 /* STQParseServerJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488DC7E1D6B7E99001D9709 /* STQParseServerJob.swift */; };
+		8488DC811D6B93A6001D9709 /* STQServerJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8488DC801D6B93A6001D9709 /* STQServerJob.swift */; };
+		F245B8CEBECB7736B4EE7C09 /* Pods_WatcherQueen.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C564A18C3E1DF50F42103443 /* Pods_WatcherQueen.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F98394E28C659D788972E74 /* Pods-WatcherQueen.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatcherQueen.debug.xcconfig"; path = "Pods/Target Support Files/Pods-WatcherQueen/Pods-WatcherQueen.debug.xcconfig"; sourceTree = "<group>"; };
+		36DC4831632B3E9495CD65E9 /* Pods-WatcherQueen.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-WatcherQueen.release.xcconfig"; path = "Pods/Target Support Files/Pods-WatcherQueen/Pods-WatcherQueen.release.xcconfig"; sourceTree = "<group>"; };
+		8400D2B41D678FAF0097BAA4 /* STQServiceCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQServiceCell.swift; sourceTree = "<group>"; };
+		84134B851D6644E80041ABE0 /* WatcherQueen.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WatcherQueen.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84134B881D6644E80041ABE0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		84134B8A1D6644E80041ABE0 /* STQServicesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = STQServicesViewController.swift; sourceTree = "<group>"; };
+		84134B8D1D6644E80041ABE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84134B8F1D6644E80041ABE0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84134B921D6644E80041ABE0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84134B941D6644E80041ABE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84329C7E1D75F24800A6B377 /* STQExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQExtensions.swift; sourceTree = "<group>"; };
+		8480FF291D679ADD0052FD7F /* STQService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQService.swift; sourceTree = "<group>"; };
+		8480FF2B1D67AD210052FD7F /* STQServiceDetailsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQServiceDetailsViewController.swift; sourceTree = "<group>"; };
+		8480FF2D1D67B7DC0052FD7F /* STQJobCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQJobCell.swift; sourceTree = "<group>"; };
+		8480FF2F1D67B9EC0052FD7F /* STQServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQServer.swift; sourceTree = "<group>"; };
+		8488DC7B1D6B7E6F001D9709 /* STQJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQJob.swift; sourceTree = "<group>"; };
+		8488DC7E1D6B7E99001D9709 /* STQParseServerJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQParseServerJob.swift; sourceTree = "<group>"; };
+		8488DC801D6B93A6001D9709 /* STQServerJob.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = STQServerJob.swift; sourceTree = "<group>"; };
+		C564A18C3E1DF50F42103443 /* Pods_WatcherQueen.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_WatcherQueen.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84134B821D6644E70041ABE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F245B8CEBECB7736B4EE7C09 /* Pods_WatcherQueen.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		469090B7EE525E4B65C2CA5A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0F98394E28C659D788972E74 /* Pods-WatcherQueen.debug.xcconfig */,
+				36DC4831632B3E9495CD65E9 /* Pods-WatcherQueen.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84134B7C1D6644E70041ABE0 = {
+			isa = PBXGroup;
+			children = (
+				84134B871D6644E80041ABE0 /* WatcherQueen */,
+				84134B861D6644E80041ABE0 /* Products */,
+				469090B7EE525E4B65C2CA5A /* Pods */,
+				B177CED294585A957037C38D /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84134B861D6644E80041ABE0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84134B851D6644E80041ABE0 /* WatcherQueen.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84134B871D6644E80041ABE0 /* WatcherQueen */ = {
+			isa = PBXGroup;
+			children = (
+				8480FF321D67BA140052FD7F /* View */,
+				8480FF311D67BA040052FD7F /* Model */,
+				84134B881D6644E80041ABE0 /* AppDelegate.swift */,
+				84134B8C1D6644E80041ABE0 /* Main.storyboard */,
+				84134B8F1D6644E80041ABE0 /* Assets.xcassets */,
+				84134B911D6644E80041ABE0 /* LaunchScreen.storyboard */,
+				84134B941D6644E80041ABE0 /* Info.plist */,
+			);
+			path = WatcherQueen;
+			sourceTree = "<group>";
+		};
+		8480FF311D67BA040052FD7F /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				8480FF2F1D67B9EC0052FD7F /* STQServer.swift */,
+				8480FF291D679ADD0052FD7F /* STQService.swift */,
+				8488DC7D1D6B7E89001D9709 /* Jobs */,
+				84329C7E1D75F24800A6B377 /* STQExtensions.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		8480FF321D67BA140052FD7F /* View */ = {
+			isa = PBXGroup;
+			children = (
+				8480FF331D67BA250052FD7F /* Cells */,
+				84134B8A1D6644E80041ABE0 /* STQServicesViewController.swift */,
+				8480FF2B1D67AD210052FD7F /* STQServiceDetailsViewController.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		8480FF331D67BA250052FD7F /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				8480FF2D1D67B7DC0052FD7F /* STQJobCell.swift */,
+				8400D2B41D678FAF0097BAA4 /* STQServiceCell.swift */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
+		8488DC7D1D6B7E89001D9709 /* Jobs */ = {
+			isa = PBXGroup;
+			children = (
+				8488DC7B1D6B7E6F001D9709 /* STQJob.swift */,
+				8488DC7E1D6B7E99001D9709 /* STQParseServerJob.swift */,
+				8488DC801D6B93A6001D9709 /* STQServerJob.swift */,
+			);
+			name = Jobs;
+			sourceTree = "<group>";
+		};
+		B177CED294585A957037C38D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C564A18C3E1DF50F42103443 /* Pods_WatcherQueen.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84134B841D6644E70041ABE0 /* WatcherQueen */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84134B971D6644E80041ABE0 /* Build configuration list for PBXNativeTarget "WatcherQueen" */;
+			buildPhases = (
+				2EB0316EBABDDA92233DF40B /* [CP] Check Pods Manifest.lock */,
+				84134B811D6644E70041ABE0 /* Sources */,
+				84134B821D6644E70041ABE0 /* Frameworks */,
+				84134B831D6644E70041ABE0 /* Resources */,
+				3ECA8D10EB9AAAB3BCDEDBAE /* [CP] Embed Pods Frameworks */,
+				CAE3F58CEBBAD5D032509394 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WatcherQueen;
+			productName = WatcherQueen;
+			productReference = 84134B851D6644E80041ABE0 /* WatcherQueen.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84134B7D1D6644E70041ABE0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Fabio Innocente";
+				TargetAttributes = {
+					84134B841D6644E70041ABE0 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = Q86BQK3N72;
+						LastSwiftMigration = 0810;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 84134B801D6644E70041ABE0 /* Build configuration list for PBXProject "WatcherQueen" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84134B7C1D6644E70041ABE0;
+			productRefGroup = 84134B861D6644E80041ABE0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84134B841D6644E70041ABE0 /* WatcherQueen */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84134B831D6644E70041ABE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84134B931D6644E80041ABE0 /* LaunchScreen.storyboard in Resources */,
+				84134B901D6644E80041ABE0 /* Assets.xcassets in Resources */,
+				84134B8E1D6644E80041ABE0 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2EB0316EBABDDA92233DF40B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		3ECA8D10EB9AAAB3BCDEDBAE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatcherQueen/Pods-WatcherQueen-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE3F58CEBBAD5D032509394 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-WatcherQueen/Pods-WatcherQueen-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84134B811D6644E70041ABE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8480FF2A1D679ADD0052FD7F /* STQService.swift in Sources */,
+				8488DC811D6B93A6001D9709 /* STQServerJob.swift in Sources */,
+				84329C7F1D75F24800A6B377 /* STQExtensions.swift in Sources */,
+				8480FF2C1D67AD210052FD7F /* STQServiceDetailsViewController.swift in Sources */,
+				8488DC7F1D6B7E99001D9709 /* STQParseServerJob.swift in Sources */,
+				8488DC7C1D6B7E6F001D9709 /* STQJob.swift in Sources */,
+				8480FF2E1D67B7DC0052FD7F /* STQJobCell.swift in Sources */,
+				84134B8B1D6644E80041ABE0 /* STQServicesViewController.swift in Sources */,
+				8480FF301D67B9EC0052FD7F /* STQServer.swift in Sources */,
+				84134B891D6644E80041ABE0 /* AppDelegate.swift in Sources */,
+				8400D2B51D678FAF0097BAA4 /* STQServiceCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84134B8C1D6644E80041ABE0 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84134B8D1D6644E80041ABE0 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84134B911D6644E80041ABE0 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84134B921D6644E80041ABE0 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84134B951D6644E80041ABE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		84134B961D6644E80041ABE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84134B981D6644E80041ABE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0F98394E28C659D788972E74 /* Pods-WatcherQueen.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Q86BQK3N72;
+				INFOPLIST_FILE = WatcherQueen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = portfolio.monitoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0324c18c-a6cf-4477-a9c7-dfc0fd180e1f";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		84134B991D6644E80041ABE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 36DC4831632B3E9495CD65E9 /* Pods-WatcherQueen.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Distribution";
+				DEVELOPMENT_TEAM = Q86BQK3N72;
+				INFOPLIST_FILE = WatcherQueen/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = portfolio.monitoring;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "0324c18c-a6cf-4477-a9c7-dfc0fd180e1f";
+				PROVISIONING_PROFILE_SPECIFIER = "XC: *";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84134B801D6644E70041ABE0 /* Build configuration list for PBXProject "WatcherQueen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84134B951D6644E80041ABE0 /* Debug */,
+				84134B961D6644E80041ABE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84134B971D6644E80041ABE0 /* Build configuration list for PBXNativeTarget "WatcherQueen" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84134B981D6644E80041ABE0 /* Debug */,
+				84134B991D6644E80041ABE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84134B7D1D6644E70041ABE0 /* Project object */;
+}
